@@ -5,11 +5,17 @@ export default function Header() {
     <header>
       <nav className="bg-black text-white p-2">
         <ul>
-          <Link href="/" prefetch={false}>
+          <Link className="mr-1" href="/" prefetch={false}>
             Home
           </Link>
-          <Link href="/henry" prefetch={false}>
+          <Link className="mr-1" href="/henry" prefetch={false}>
             Henry
+          </Link>
+          <Link className="mr-1" href="/pete" prefetch={false}>
+            Pete
+          </Link>
+          <Link className="mr-1" href="/tommi" prefetch={false}>
+            Tommi
           </Link>
         </ul>
       </nav>

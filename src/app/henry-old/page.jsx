@@ -17,7 +17,7 @@ export async function generateMetadata() {
 
 export default async function HenryPage() {
   const data = await getHenry();
-  const { name } = data;
+  const { name, age, favoriteColor } = data;
 
   return (
     <main className="md:flex max-w-7xl mx-auto">
